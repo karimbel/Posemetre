@@ -144,6 +144,18 @@
     const next=lessons[(current+1)%lessons.length];
     window.setTimeout(()=>[next.image,...sceneSources(next.id)].forEach(warmVisual),250);
   }
+  onMount(()=>{
+    const root=document.documentElement;
+    const fixScenePath=()=>{
+      const source=root.style.getPropertyValue('--interactive-scene');
+      const match=source.match(/url\(['"]?(\/assets\/[^'")]+)['"]?\)/);
+      if(match)root.style.setProperty('--interactive-scene',`url('${assetUrl(match[1])}')`);
+    };
+    const observer=new MutationObserver(fixScenePath);
+    observer.observe(root,{attributes:true,attributeFilter:['style']});
+    fixScenePath();
+    return()=>observer.disconnect();
+  });
   onMount(()=>{readDeviceMode();window.addEventListener('resize',readDeviceMode);return()=>window.removeEventListener('resize',readDeviceMode)});
   $: if(started&&lesson)preloadNextVisuals();
   $: guideCopy=GUIDE_TEXTS[lesson.id]??'La fiche mémo de la mission détaille le placement du posemètre et la direction de la mesure.';
