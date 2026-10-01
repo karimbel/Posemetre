@@ -25,11 +25,14 @@ L’apprenant observe des situations de prise de vue, choisit une zone ou un pos
 5. Protection de la zone-climax
 6. Lumisphère : sortie ou rentrée
 7. Lecture et ajustement des valeurs
+8. Bilan personnalisé de fin de parcours
 
 La mission « Lumisphère » tire aléatoirement une situation :
 
 - lumière naturelle sans contraste : lumisphère sortie ;
 - lumière de studio : lumisphère rentrée.
+
+À la fin du parcours, une page de résultats détaille les réponses de l’apprenant, indique les bonnes réponses et leurs explications, puis met en évidence les missions à revoir. Chaque point à réviser permet de revenir directement à la mission correspondante.
 
 ## Technologies
 
