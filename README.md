@@ -72,8 +72,16 @@ Avant de proposer une modification, vérifiez le parcours concerné sur ordinate
 
 ## Licence
 
-Ce projet est distribué sous licence [Creative Commons Attribution — Utilisation non commerciale — Partage dans les mêmes conditions 4.0 International (CC BY-NC-SA 4.0)](LICENSE).
+Le projet combine trois types d’éléments, soumis à des règles différentes :
 
-Vous pouvez partager et adapter le projet à condition de créditer [KarimBel](https://www.linkedin.com/in/karimbelkacem/), de ne pas en faire un usage commercial et de diffuser les adaptations sous la même licence.
+| Élément | Licence |
+|---|---|
+| Code (application, configuration, Docker, scripts) | [MIT](LICENSE) |
+| Textes pédagogiques (missions, questions, explications, bilan) | [CC BY-NC-SA 4.0](LICENSE-CONTENU) |
+| Visuels (`public/assets`) | Aucune des deux, voir ci-dessous |
+
+Les textes pédagogiques sont intégrés dans `src/App.svelte` : le code peut être réutilisé librement (MIT), mais reprendre les textes suppose de créditer [KarimBel](https://www.linkedin.com/in/karimbelkacem/), de ne pas en faire un usage commercial et de diffuser les adaptations sous la même licence.
+
+Les visuels ont été générés avec OpenAI. Les images produites par une IA ne bénéficient pas nécessairement de la protection du droit d’auteur : elles ne sont couvertes par aucune des licences ci-dessus, et leur réutilisation se fait sans garantie.
 
 Avant toute diffusion, vérifiez que vous possédez les droits nécessaires sur chaque ressource ajoutée au projet.

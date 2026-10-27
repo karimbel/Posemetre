@@ -1,29 +1,25 @@
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+MIT License
 
-Creative Commons Attribution — Utilisation non commerciale — Partage dans les
-mêmes conditions 4.0 International (CC BY-NC-SA 4.0)
+Copyright (c) 2026 KarimBel
 
-Copyright © 2026 KarimBel.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Ce projet est mis à disposition selon les termes de la licence Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Vous êtes autorisé à :
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-- Partager — copier et redistribuer le matériel sur tout support ou dans tout format.
-- Adapter — remixer, transformer et créer à partir du matériel.
-
-Selon les conditions suivantes :
-
-- Attribution — vous devez créditer KarimBel, fournir un lien vers la licence et indiquer les modifications.
-- Utilisation non commerciale — vous ne pouvez pas utiliser le matériel à des fins commerciales.
-- Partage dans les mêmes conditions — vous devez diffuser vos contributions sous la même licence.
-- Pas de restrictions supplémentaires — vous ne pouvez pas empêcher les autres d’exercer les droits accordés.
-
-Les droits moraux, les droits de tiers et les autres droits susceptibles de limiter un usage ne sont pas nécessairement couverts par cette licence. Aucune garantie n’est donnée.
-
-Texte juridique complet :
-https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr
-
-Texte simplifié :
-https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr
+Cette licence s'applique au code du projet. Les textes pédagogiques sont sous
+licence CC BY-NC-SA 4.0 (voir LICENSE-CONTENU) ; les visuels ne sont couverts
+par aucune de ces licences (voir README.md).
