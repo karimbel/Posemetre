@@ -6,7 +6,7 @@ L’apprenant observe des situations de prise de vue, choisit une zone ou un pos
 
 ## Aperçu
 
-![Aperçu d’une scène interactive du module](public/assets/reflected-interactive-scene.png)
+![Aperçu d’une scène interactive du module](public/assets/reflected-interactive-scene.webp)
 
 ## Objectifs pédagogiques
 
@@ -42,7 +42,7 @@ La mission « Lumisphère » tire aléatoirement une situation :
 
 ## Installation
 
-Prérequis : Node.js 20 ou une version plus récente.
+Prérequis : Node.js 22 ou une version plus récente (la même version que celle utilisée par Docker et par le déploiement GitHub Pages).
 
 ```bash
 npm install
@@ -50,6 +50,22 @@ npm run dev
 ```
 
 Le module est alors disponible sur `http://localhost:8080`.
+
+## Avec Docker
+
+```bash
+docker compose up --build
+```
+
+Le mode développement est disponible sur `http://localhost:8080` (le code est monté depuis le dossier du projet, les modifications s’affichent directement).
+
+Pour tester la version de production servie par nginx :
+
+```bash
+docker compose --profile prod up --build prod
+```
+
+Elle est alors disponible sur `http://localhost:8081`. Pour l’arrêter : `docker compose --profile prod down`.
 
 ## Produire une version statique
 
