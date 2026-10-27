@@ -79,8 +79,8 @@ Les fichiers prêts à publier sont générés dans `dist/`.
 
 - Conception et contenu pédagogique : [KarimBel](https://www.linkedin.com/in/karimbelkacem/)
 - Contenu pédagogique librement inspiré de [Nath Sakura Channel](https://www.youtube.com/@NathSakuraChannel)
-- Développement : KarimBel, avec l’assistance d’OpenAI
-- Visuels : générés avec OpenAI
+- Développement : KarimBel, avec l’assistance de GPT et Claude
+- Visuels : générés avec GPT
 
 ## Contribution
 
@@ -98,7 +98,7 @@ Le projet combine trois types d’éléments, soumis à des règles différentes
 
 Les textes pédagogiques sont intégrés dans `src/App.svelte` : le code peut être réutilisé librement (MIT), mais reprendre les textes suppose de créditer [KarimBel](https://www.linkedin.com/in/karimbelkacem/), de ne pas en faire un usage commercial et de diffuser les adaptations sous la même licence.
 
-Les visuels ont été générés avec OpenAI. Les images produites par une IA ne bénéficient pas nécessairement de la protection du droit d’auteur : elles ne sont couvertes par aucune des licences ci-dessus, et leur réutilisation se fait sans garantie.
+Les visuels ont été générés avec GPT. Les images produites par une IA ne bénéficient pas nécessairement de la protection du droit d’auteur : elles ne sont couvertes par aucune des licences ci-dessus, et leur réutilisation se fait sans garantie.
 
 Certaines planches pédagogiques montrent un posemètre portant le nom SEKONIC. Il s’agit d’illustrations générées par IA, pas de photographies du produit réel. SEKONIC est une marque de ses propriétaires respectifs ; ce projet n’est ni affilié à cette marque, ni approuvé par elle.
 
