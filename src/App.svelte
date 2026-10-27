@@ -47,7 +47,6 @@
     {prompt:'Quel objet renvoie le moins de lumière ?',answer:'dark'}
   ];
   const sphereScenarios=[
-    {id:'natural',answer:'sortie',prompt:'En lumière naturelle sans contraste, quel posemètre choisissez-vous ?',coachTask:'Choisissez le posemètre adapté à une lumière naturelle douce.',coachAction:'La lumisphère sortie intègre la lumière ambiante.'},
     {id:'studio',answer:'rentree',prompt:'En lumière de studio, quel posemètre choisissez-vous ?',coachTask:'Choisissez le posemètre adapté à une source de studio.',coachAction:'La lumisphère rentrée isole la source directionnelle.'}
   ];
   type ExposureSetting={speed:number;aperture:string;iso:number};

@@ -48,12 +48,9 @@ html[data-zoom='true'],html[data-zoom='true'] body{overflow:hidden}
 /* Mission lumisphère : une situation est tirée au hasard à chaque passage. */
 :root[data-lesson='sphere'] .drag-instruction{font-size:0!important}
 :root[data-lesson='sphere'] .drag-instruction::after{display:block;font:600 1.05rem/1.35 Outfit,sans-serif;color:#e9f0ee}
-:root[data-lesson='sphere'][data-sphere-scenario='natural'] .drag-instruction::after{content:'En lumière naturelle sans contraste, quel posemètre choisissez-vous ?'}
 :root[data-lesson='sphere'][data-sphere-scenario='studio'] .drag-instruction::after{content:'En lumière de studio, quel posemètre choisissez-vous ?'}
 :root[data-lesson='sphere'] .photo-stage>.feedback p{font-size:0!important}
 :root[data-lesson='sphere'] .photo-stage>.feedback p::after{font-size:.8rem;line-height:1.35}
-:root[data-lesson='sphere'][data-sphere-scenario='natural'] .photo-stage>.feedback.success p::after{content:'Bonne réponse : la lumisphère sortie mesure la lumière ambiante sur 180°.'}
-:root[data-lesson='sphere'][data-sphere-scenario='natural'] .photo-stage>.feedback:not(.success) p::after{content:'Ici, la lumière est naturelle et peu contrastée : choisissez la lumisphère sortie pour intégrer l’ambiance.'}
 :root[data-lesson='sphere'][data-sphere-scenario='studio'] .photo-stage>.feedback.success p::after{content:'Bonne réponse : la lumisphère rentrée isole la contribution directionnelle de la source.'}
 :root[data-lesson='sphere'][data-sphere-scenario='studio'] .photo-stage>.feedback:not(.success) p::after{content:'Ici, la source de studio est directionnelle : choisissez la lumisphère rentrée pour l’isoler.'}
 @media (max-width:600px),(hover:none){:root[data-lesson='climax'] .drag-instruction{font-size:0!important}:root[data-lesson='climax'] .drag-instruction::after{content:'Touchez l’endroit le plus éclairé du sujet.'!important;font-size:1.05rem;line-height:1.35}}

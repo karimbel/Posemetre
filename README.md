@@ -27,10 +27,7 @@ L’apprenant observe des situations de prise de vue, choisit une zone ou un pos
 7. Lecture et ajustement des valeurs
 8. Bilan personnalisé de fin de parcours
 
-La mission « Lumisphère » tire aléatoirement une situation :
-
-- lumière naturelle sans contraste : lumisphère sortie ;
-- lumière de studio : lumisphère rentrée.
+La mission « Lumisphère » se joue en lumière de studio : la bonne réponse est la lumisphère rentrée (posemètre de droite), qui isole la source directionnelle.
 
 À la fin du parcours, une page de résultats détaille les réponses de l’apprenant, indique les bonnes réponses et leurs explications, puis met en évidence les missions à revoir. Chaque point à réviser permet de revenir directement à la mission correspondante.
 
