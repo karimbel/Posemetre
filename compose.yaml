@@ -1,6 +1,10 @@
+# Nom de projet fixe : sans lui, Compose le déduit du dossier « Posemètre » et perd le « è ».
+name: posemetre
+
 services:
-  posemtre:
-    container_name: posemtre
+  # Développement : docker compose up --build  ->  http://localhost:8080
+  posemetre:
+    container_name: posemetre
     build:
       context: .
       target: dev
@@ -11,6 +15,17 @@ services:
       - posemetre_node_modules:/app/node_modules
     environment:
       CHOKIDAR_USEPOLLING: "true"
+
+  # Vérification de la version de production (nginx) :
+  # docker compose --profile prod up --build prod  ->  http://localhost:8081
+  prod:
+    profiles: ["prod"]
+    container_name: posemetre-prod
+    build:
+      context: .
+      target: runtime
+    ports:
+      - "8081:80"
 
 volumes:
   posemetre_node_modules:
