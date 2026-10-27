@@ -5,3 +5,7 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Outils personnels (ne partent pas sur GitHub)
+publier.cmd
+publier.ps1
