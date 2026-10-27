@@ -84,4 +84,6 @@ Les textes pédagogiques sont intégrés dans `src/App.svelte` : le code peut ê
 
 Les visuels ont été générés avec OpenAI. Les images produites par une IA ne bénéficient pas nécessairement de la protection du droit d’auteur : elles ne sont couvertes par aucune des licences ci-dessus, et leur réutilisation se fait sans garantie.
 
+Certaines planches pédagogiques montrent un posemètre portant le nom SEKONIC. Il s’agit d’illustrations générées par IA, pas de photographies du produit réel. SEKONIC est une marque de ses propriétaires respectifs ; ce projet n’est ni affilié à cette marque, ni approuvé par elle.
+
 Avant toute diffusion, vérifiez que vous possédez les droits nécessaires sur chaque ressource ajoutée au projet.
